@@ -1,0 +1,20 @@
+/* Arrière-plan avec effet parallax */
+.presentation-page {
+    background-image: url('porto2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Conteneur semi-transparent pour lisibilité */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Le reste de tes styles (membre, boutons, photos, etc.) restent inchangés */
